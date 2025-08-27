@@ -1,0 +1,62 @@
+body {
+  background: #666;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.container {
+  background: #555;
+  padding: 30px;
+  border-radius: 10px;
+  width: 320px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: left;
+}
+
+input[type="text"] {
+  width: 95%;
+  padding: 8px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  margin-top: 15px;
+  padding: 8px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background: #ddd;
+}
+
+.guide {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.guide h3 {
+  margin-bottom: 10px;
+}
+
+.guide p {
+  margin: 5px 0;
+}
