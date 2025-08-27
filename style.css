@@ -4,26 +4,26 @@ body {
   font-family: Arial, sans-serif;
   color: white;
   text-align: center;
-  padding: 20px;
-  margin: 0;
+  padding: 20px; /* Changed for better spacing */
+  margin: 0; /* Added to remove default browser margin */
 }
 
 /* Container Styling */
 .container {
   background: #555;
-  padding: 25px;
+  padding: 25px; /* Adjusted padding for better layout */
   border-radius: 10px;
   width: 350px;
-  max-width: 90%;
+  max-width: 90%; /* Added for responsiveness */
   margin: auto;
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-  transition: all 0.3s ease;
+  transition: all 0.3s ease; /* Smooth animation on resize */
 }
 
 /* Heading */
 h2 {
   margin-bottom: 20px;
-  font-size: 22px;
+  font-size: 22px; /* Increased for better visibility */
 }
 
 /* Labels */
@@ -37,7 +37,7 @@ label {
 /* Input Fields */
 input[type="text"] {
   width: 95%;
-  padding: 10px;
+  padding: 10px; /* Increased padding for better UX */
   margin-top: 5px;
   border: none;
   border-radius: 5px;
@@ -47,19 +47,19 @@ input[type="text"] {
 /* Submit Button */
 input[type="submit"] {
   margin-top: 15px;
-  padding: 10px 20px;
+  padding: 10px 20px; /* Increased padding for better appearance */
   border: none;
   border-radius: 5px;
   background: white;
   color: black;
   cursor: pointer;
   font-weight: bold;
-  font-size: 16px;
-  transition: 0.3s ease;
+  font-size: 16px; /* Increased for better readability */
+  transition: 0.3s ease; /* Added smooth hover effect */
 }
 
 input[type="submit"]:hover {
-  background: #ddd;
+  background: #ddd; /* Slight hover effect */
 }
 
 /* Guide Section */
@@ -70,7 +70,7 @@ input[type="submit"]:hover {
 
 .guide h3 {
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 18px; /* Increased for better visibility */
 }
 
 .guide p {
@@ -81,37 +81,46 @@ input[type="submit"]:hover {
 /* Responsive Design */
 @media screen and (max-width: 600px) {
   body {
-    padding: 10px;
+    padding: 10px; /* Reduced padding for smaller screens */
   }
 
   .container {
-    width: 100%;
+    width: 100%; /* Full width on small devices */
     padding: 20px;
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 20px; /* Slightly smaller heading */
   }
 
-  label, input[type="text"], input[type="submit"], .guide h3, .guide p {
+  /* Reduced font sizes for better fit */
+  label,
+  input[type="text"],
+  input[type="submit"],
+  .guide h3,
+  .guide p {
     font-size: 14px;
   }
 
   input[type="submit"] {
-    width: 100%;
+    width: 100%; /* Full-width button on small screens */
   }
 }
 
 @media screen and (max-width: 400px) {
   h2 {
-    font-size: 18px;
+    font-size: 18px; /* Adjusted heading size */
   }
 
   .container {
-    padding: 15px;
+    padding: 15px; /* Reduced padding for very small screens */
   }
 
-  label, input[type="text"], .guide h3, .guide p {
+  /* Reduced font size for ultra-small screens */
+  label,
+  input[type="text"],
+  .guide h3,
+  .guide p {
     font-size: 13px;
   }
 }
